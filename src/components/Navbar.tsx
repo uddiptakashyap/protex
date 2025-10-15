@@ -1,6 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { BellRing, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { 
   Popover,
@@ -65,22 +66,22 @@ const Navbar = () => {
           
           <div className="hidden md:flex md:items-center md:space-x-4">
             <Button variant="link" asChild>
-              <a href="/">Dashboard</a>
+              <Link to="/">Dashboard</Link>
             </Button>
             <Button variant="link" asChild>
-              <a href="/map">Map</a>
+              <Link to="/map">Map</Link>
             </Button>
             <Button variant="link" asChild>
-              <a href="/historical">Historical Data</a>
+              <Link to="/historical">Historical Data</Link>
             </Button>
             <Button variant="link" asChild>
-              <a href="/arduino">IoT Setup</a>
+              <Link to="/arduino">IoT Setup</Link>
             </Button>
             <Button variant="link" asChild>
-              <a href="/esp32">ESP32 Sensors</a>
+              <Link to="/esp32">ESP32 Sensors</Link>
             </Button>
             <Button variant="link" asChild>
-              <a href="/contact">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </Button>
             
             <Popover>
@@ -181,22 +182,22 @@ const Navbar = () => {
         <div className="md:hidden">
           <div className="pt-2 pb-4 px-4 space-y-1 sm:px-6 bg-background border-b border-gray-700">
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/">Dashboard</a>
+              <Link to="/">Dashboard</Link>
             </Button>
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/map">Map</a>
+              <Link to="/map">Map</Link>
             </Button>
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/historical">Historical Data</a>
+              <Link to="/historical">Historical Data</Link>
             </Button>
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/arduino">IoT Setup</a>
+              <Link to="/arduino">IoT Setup</Link>
             </Button>
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/esp32">ESP32 Sensors</a>
+              <Link to="/esp32">ESP32 Sensors</Link>
             </Button>
             <Button variant="ghost" className="w-full justify-start" asChild>
-              <a href="/contact">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
         </div>

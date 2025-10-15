@@ -1,6 +1,6 @@
 
 import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { CloudRain } from "lucide-react";
 
@@ -28,7 +28,7 @@ const NotFound = () => {
           Oops! This page seems to have been washed away
         </p>
         <Button size="lg" asChild>
-          <a href="/">Return to Dashboard</a>
+          <Link to="/">Return to Dashboard</Link>
         </Button>
       </div>
     </div>
