@@ -1,36 +1,13 @@
 {
+  "functions": {
+    "src/**": {
+      "runtime": "@vercel/static"
+    }
+  },
   "rewrites": [
     {
-      "source": "/map",
-      "destination": "/"
-    },
-    {
-      "source": "/historical",
-      "destination": "/"
-    },
-    {
-      "source": "/arduino",
-      "destination": "/"
-    },
-    {
-      "source": "/esp32",
-      "destination": "/"
-    },
-    {
-      "source": "/contact",
-      "destination": "/"
-    },
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/"
-    }
-  ],
-  "headers": [
-    {
       "source": "/(.*)",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-      ]
+      "destination": "/index.html"
     }
   ]
 }
