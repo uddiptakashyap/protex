@@ -229,7 +229,15 @@ This project is developed for Smart India Hackathon 2025. Please refer to the li
 ## 👥 Team
 
 **The_Alchemists_014**
-- A dedicated team working towards disaster management and community safety
+
+- **Nitin Ranjan Nag** - [@nagnitin](https://github.com/nagnitin)
+- **Sampurna Biswas** - 
+- **Nahid Tanvir Alam** - 
+- **Uddipta Kashyap** - 
+- **Ankita Rabha** - 
+- **Gourab Adhikari** - 
+
+*A dedicated team working towards disaster management and community safety*
 
 ## 📞 Contact
 
