@@ -1,6 +1,29 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    {
+      "source": "/map",
+      "destination": "/"
+    },
+    {
+      "source": "/historical",
+      "destination": "/"
+    },
+    {
+      "source": "/arduino",
+      "destination": "/"
+    },
+    {
+      "source": "/esp32",
+      "destination": "/"
+    },
+    {
+      "source": "/contact",
+      "destination": "/"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/"
+    }
   ],
   "headers": [
     {
