@@ -1,7 +1,6 @@
 {
-  // Vercel SPA routing: serve index.html for all non-file routes
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/" }
   ],
   "headers": [
     {
