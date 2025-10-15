@@ -115,8 +115,8 @@ Cloudbursts in hilly regions trigger sudden flash floods, risking lives and prop
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/uddiptakashyap/protex.git
-   cd protex
+   git clone https://github.com/uddiptakashyap/warnex_dashboard.git
+   cd warnex_dashboard
    ```
 
 2. **Install dependencies**
@@ -138,6 +138,32 @@ Cloudbursts in hilly regions trigger sudden flash floods, risking lives and prop
 5. **Access the application**
    - Local: http://localhost:8080
    - Network: http://172.20.10.6:8080
+
+### Deployment
+
+#### GitHub Pages Deployment
+
+1. **Enable GitHub Pages**:
+   - Go to your repository settings
+   - Navigate to "Pages" section
+   - Select "GitHub Actions" as the source
+
+2. **Automatic Deployment**:
+   - Push to main branch triggers automatic deployment
+   - The workflow will build and deploy to GitHub Pages
+   - Your site will be available at: `https://[username].github.io/warnex_dashboard/`
+
+3. **Manual Deployment** (if GitHub Pages is not enabled):
+   ```bash
+   npm run build
+   # Deploy the 'dist' folder to your hosting service
+   ```
+
+#### Alternative Deployment Options
+
+- **Vercel**: Connect your GitHub repository to Vercel for automatic deployments
+- **Netlify**: Use the provided `netlify.toml` configuration for Netlify deployment
+- **Other Static Hosts**: Use the built `dist` folder with any static hosting service
 
 ### Hardware Setup
 
