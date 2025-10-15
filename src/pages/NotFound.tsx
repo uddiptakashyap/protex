@@ -8,7 +8,7 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "FloodGuardia - Page Not Found";
+    document.title = "Warnex - Page Not Found";
     console.error(
       "404 Error: User attempted to access non-existent route:",
       location.pathname
