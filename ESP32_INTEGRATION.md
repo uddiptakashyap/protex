@@ -1,6 +1,6 @@
 # ESP32 Real-time Sensor Integration
 
-This document explains how the ESP32 sensor integration works in the Protex application.
+This document explains how the ESP32 sensor integration works in the Warnex application.
 
 ## Overview
 
@@ -81,7 +81,7 @@ The application includes robust error handling:
 
 To test the integration:
 1. Ensure ESP32 device is running and accessible at `10.127.132.7`
-2. Start the Protex application
+2. Start the Warnex application
 3. Navigate to the ESP32 sensors page
 4. Verify real-time data updates every 5 seconds
 5. Check connection status indicators

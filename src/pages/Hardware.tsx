@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const Hardware = () => {
   useEffect(() => {
-    document.title = "Protex - Hardware Connection";
+    document.title = "Warnex - Hardware Connection";
   }, []);
   
   return (

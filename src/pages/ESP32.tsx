@@ -5,7 +5,7 @@ import { ESP32_CONFIG } from "@/config/constants";
 
 const ESP32 = () => {
   useEffect(() => {
-    document.title = "Protex - ESP32 Real-time Sensors";
+    document.title = "Warnex - ESP32 Real-time Sensors";
   }, []);
   
   return (

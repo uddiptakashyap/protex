@@ -17,7 +17,7 @@ import MeteoblueWidget from "@/components/MeteoblueWidget";
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Protex - Dashboard";
+    document.title = "Warnex - Dashboard";
   }, []);
   
   return (

@@ -26,7 +26,7 @@ const ContactUs = () => {
   const [isLoading, setIsLoading] = useState(false);
   
   useEffect(() => {
-    document.title = "Protex - Contact Us";
+    document.title = "Warnex - Contact Us";
   }, []);
   
   const handleSaveNotifications = async () => {
@@ -266,7 +266,7 @@ const ContactUs = () => {
                     </Button>
                   </div>
                   <p className="text-xs text-gray-400 mt-2">
-                    Your API key provides access to the Protex API. Keep it secure.
+                    Your API key provides access to the Warnex API. Keep it secure.
                   </p>
                 </div>
                 

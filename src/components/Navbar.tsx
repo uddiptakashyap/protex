@@ -59,7 +59,7 @@ const Navbar = () => {
               <div className="h-8 w-8 bg-blue-500 rounded-md flex items-center justify-center mr-2">
                 <div className="h-4 w-4 bg-white rounded-full animate-pulse-slow"></div>
               </div>
-              <span className="text-xl font-bold text-foreground">Protex</span>
+              <span className="text-xl font-bold text-foreground">Warnex</span>
             </div>
           </div>
           
